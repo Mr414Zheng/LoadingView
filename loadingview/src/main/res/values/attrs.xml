@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <declare-styleable name="LoadingView">
+        <attr name="layout_blockWidth_half" format="dimension"/>
+        <attr name="layout_blockMargin" format="dimension"/>
+        <attr name="layout_startPosition" format="integer"/>
+        <attr name="isClockwise" format="boolean"/>
+        <attr name="lines" format="integer"/>
+        <attr name="duration" format="integer"/>
+        <attr name="blockColor" format="color|reference"/>
+        <attr name="moveBlock_angle" format="float"/>
+        <attr name="fixBlock_angle" format="float"/>
+        <attr name="interpolator" format="reference"/>
+    </declare-styleable>
+
+    <declare-styleable name="LoadingSurfaceView">
+        <attr name="layout_blockWidth_half1" format="dimension"/>
+        <attr name="layout_blockMargin1" format="dimension"/>
+        <attr name="layout_startPosition1" format="integer"/>
+        <attr name="isClockwise1" format="boolean"/>
+        <attr name="lines1" format="integer"/>
+        <attr name="duration1" format="integer"/>
+        <attr name="blockColor1" format="color|reference"/>
+        <attr name="moveBlock_angle1" format="float"/>
+        <attr name="fixBlock_angle1" format="float"/>
+        <attr name="interpolator1" format="reference"/>
+    </declare-styleable>
+
+</resources>

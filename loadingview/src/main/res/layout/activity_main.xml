@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="Hello World!" />
+
+    <com.zhz.loadingviewdemo.widget.LoadingSurfaceView
+        android:id="@+id/loadingView1"
+        android:visibility="gone"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        app:lines1="3"
+        app:blockColor1="@color/colorAccent"
+        app:fixBlock_angle1="10"
+        app:layout_blockMargin1="10dp"
+        app:layout_startPosition1="1"
+        app:layout_blockWidth_half1="25dp"
+        app:moveBlock_angle1="30"
+        app:duration1="500"/>
+
+    <com.zhz.loadingviewdemo.widget.LoadingView
+        android:visibility="visible"
+        android:id="@+id/loadingView"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_centerInParent="true"
+        app:lines="3"
+        app:blockColor="@color/colorAccent"
+        app:fixBlock_angle="10"
+        app:layout_blockMargin="5dp"
+        app:layout_startPosition="1"
+        app:layout_blockWidth_half="10dp"
+        app:moveBlock_angle="50"
+        app:duration="1000"/>
+
+</RelativeLayout>

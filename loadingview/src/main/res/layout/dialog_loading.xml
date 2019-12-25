@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.zhz.loadingviewdemo.widget.LoadingView
+        android:id="@+id/loadingView"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        app:lines="3"
+        app:blockColor="@color/white"
+        app:fixBlock_angle="10"
+        app:layout_blockMargin="5dp"
+        app:layout_startPosition="1"
+        app:layout_blockWidth_half="10dp"
+        app:moveBlock_angle="50"
+        app:duration="400"/>
+
+</LinearLayout>
